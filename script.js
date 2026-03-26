@@ -17,7 +17,7 @@ btn.addEventListener("click", () => {
     deleteImage.className = "delete-img";
 
     noteBox.setAttribute("contenteditable", "true");
-    deleteImage.src = "/delete.jpg";
+    deleteImage.src = "delete.jpg";
 
     noteContainer.appendChild(noteBox).appendChild(deleteImage);
 });
