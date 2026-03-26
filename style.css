@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.contaner {
+    background: linear-gradient(rgb(119, 119, 239), rgb(242, 135, 242));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 47.5vw;
+    padding: 30px;
+}
+
+.heading {
+    display: flex;
+    width: 100px;
+}
+.heading h1{
+    font-size: 50px;
+}
+.heading img {
+    width: 52px;
+}
+
+button img {
+    height: auto;
+    
+}
+
+button {
+    color: rgb(216, 222, 222);
+    font-weight: 750;
+    background: linear-gradient(purple , rgb(165, 91, 239));
+    margin: 50px 20px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 12px;
+    padding: 5px;
+    border: none;
+    justify-content: center;
+    
+}
+button span{
+    padding-top: 10px;
+}
+.note{
+    position: relative;
+    margin:10px ;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    overflow: auto;
+    scrollbar-width: none ;
+    max-width: 500px;
+    height: 150px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 2px 2px gray;
+    
+}
+.note-contaner{
+    padding-left:15px;
+}
+.delete-img{
+    position: absolute;
+    height: 25px;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    
+}
